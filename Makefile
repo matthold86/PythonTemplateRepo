@@ -27,7 +27,7 @@ format: install
 lint: format
 	$(PYLINT) src/
 
-#Perform unit tests under /tests directory
+#Perform unit tests under tests/ directory
 test: lint
 	$(PYTEST) tests/
 
